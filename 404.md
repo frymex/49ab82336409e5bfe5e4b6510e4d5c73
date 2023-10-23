@@ -1,3 +1,0 @@
----
-permalink: /src/index.html
----
