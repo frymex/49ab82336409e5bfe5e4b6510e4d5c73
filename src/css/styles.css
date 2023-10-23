@@ -1,0 +1,36 @@
+body {
+    background-color: #201f1f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center
+}
+
+.profile {
+    background-color: transparent;
+    margin-top: 10%;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+.description {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.telegram-button {
+    display: block;
+    background-color: #4A90E2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none
+}
