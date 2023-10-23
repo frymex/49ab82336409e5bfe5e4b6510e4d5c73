@@ -32,15 +32,35 @@ body {
 }
 
 .telegram-button {
-    display: block;
+    display: inline-block;
     background-color: #4A90E2;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     color: white;
-    text-decoration: none
+    text-decoration: none;
+        margin-right: 15px;
+
 }
 
+.github-button {
+    display: inline-block;
+    background-color: #25b061;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+        margin-right: 15px;
+
+}
+
+.buttons__group button {
+}
+
+.buttons__group button:last-child {
+            margin-right: 0; /* Убирает отступ у последней кнопки */
+        }
 
 .ua:hover {
     color: yellow;

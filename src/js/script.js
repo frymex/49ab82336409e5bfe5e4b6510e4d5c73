@@ -19,15 +19,31 @@ document.addEventListener("DOMContentLoaded", function () {
     p.className = "description";
     p.innerHTML = "Python developer. From Ukraine.<br><br><code id='description__second' onmouseover='onMouseOver()' onmouseout='onMouseOut()' onclick='onClick()'>Logica a puncto A ad punctum B te auferre potest, et imaginatio alicub</code>";
 
+
+    const buttonsGroup = document.createElement("div");
+    buttonsGroup.className = "buttons__group"
+
+
     const telegramButton = document.createElement("a");
     telegramButton.href = "tg://resolve?domain=cazqev";
     telegramButton.className = "telegram-button";
-    telegramButton.textContent = "Write me";
+    telegramButton.textContent = "Telegram";
+
+    const githubButton = document.createElement("a");
+    githubButton.href = "https://github.com/frymex"
+    githubButton.className = 'github-button'
+    githubButton.textContent = "Github"
+
 
     profileDiv.appendChild(img);
     profileDiv.appendChild(h2);
     profileDiv.appendChild(p);
-    profileDiv.appendChild(telegramButton);
+
+    buttonsGroup.appendChild(telegramButton)
+    buttonsGroup.appendChild(githubButton)
+
+    profileDiv.appendChild(buttonsGroup);
+
     document.body.appendChild(profileDiv);
 });
 
