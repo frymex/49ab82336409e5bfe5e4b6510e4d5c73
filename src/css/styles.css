@@ -16,7 +16,13 @@ body {
 .profile img {
     width: 150px;
     height: 150px;
-    border-radius: 50%
+    border-radius: 50%;
+    transition: box-shadow 0.1s linear;
+
+}
+
+.profile img:hover {
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
 }
 
 .description {
@@ -33,4 +39,9 @@ body {
     border-radius: 5px;
     color: white;
     text-decoration: none
+}
+
+
+.ua:hover {
+    color: yellow;
 }
